@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>test</title>
+<style type="text/css">
+.test {
+}
+</style>
+</head>
+
+<body>
+	<h1 style="text-align: center">这是我的第一个标题</h1>
+	<h2 style="background-color:red;color:blue;font:lighter">这是我的第二个标题</h2>
+	<h3 style="font-size:20px;">这是我的第三个标题</h3>
+	<p style="color:red"><i>以下图片将跳转到育碧官网:</i></p>  <!--target=_blank表示会在新窗口打开-->
+	<a href="https://www.ubisoft.com/" target="_blank"><img src="/resources/1.jpg" width="800" height="450" /></a>
+	<br />
+	<p>这是我的第一个段落</p>
+	<a name="yinyong">这是一个短的<q>引用</q></a>
+	
+	<p>以下内容引用自 WWF 的网站：</p>                       <!-- 这是一个长引用 -->
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	五十年来，WWF 一直致力于保护自然界的未来。
+	世界领先的环保组织，WWF 工作于 100 个国家，
+	并得到美国一百二十万会员及全球近五百万会员的支持。
+	</blockquote>
+	
+	<p style="color:red"><i>以下是一个地址:</i></p>
+	<address>
+	Written by Donald Duck.<br> 
+	Visit us at:<br>
+	Example.com<br>
+	Box 564, Disneyland<br>
+	USA
+	</address>
+	<p style="color:red"><i>以下是一个上标"sup"实例:</i></p>
+	<p>Einstein wrote:</p>
+	<p><var>E = m c<sup>2</sup></var></p>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<p style="color:red"><i>以下是一个"锚"(书签、网页内跳转语句)实例:</i></p>
+	<a href="#yinyong">跳转到引用</a>
+	<br />
+	<!--锚也可以链接到其他页面,如<a href="index.html#yinyong">这个也能跳转到引用</a>-->
+	<a href="index.html#yinyong">这个也能跳转到引用</a>
+	<br />
+	<img src="boat.gif" alt="Big Boat">
+	<!--在浏览器无法载入图像时，替换文本属性"alt"告诉读者她们失去的信息。此时，浏览器将显示这个替代性的文本而不是图像。为页面上的图像都加上替换文本属性是个好习惯，这样有助于更好的显示信息，并且对于那些使用纯文本浏览器的人来说是非常有用的。-->
+	<br />
+	<!--以下创建图像映射-->
+	<a href="#yinyong"target="_blank">创建图像映射</a>
+	<br \>
+	<!--以下是选项框-->
+	<!--action 定义了接收并处理事件的页面 POST定义了提交的数据在地址栏是不可见的安全性比GET高-->
+	<p style="color:red"><i>以下是选项框实例:</i></p>
+	<form action="HelloWorld"method="POST">
+	<input type="radio" name="sex" value="male" checked>Male
+	<br>
+	<input type="radio" name="sex" value="female">Female
+	<br \>
+	<input type="submit" value="Submit">
+	<p style="color:red"><i>以下是输入框实例:</i></p>
+	</form>
+	<br \>
+	<form action="HelloWorld"method="POST">
+	First name:<br>
+	<input type="text" name="firstname" value="Mickey">
+	<br>
+	Last name:<br>
+	<input type="text" name="lastname" value="Mouse">
+	<br><br>
+	<input type="submit" value="Submit">
+	</form> 
+</body>
+</html>
